@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.map-overlay {
+  position: relative;
+  padding: 10px;
+}
+
+button {
+  padding: 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+
+button:hover {
+  background-color: skyblue;
+  color: black;
+  border-radius: 5px;
+  transition: all 1.6s ease-in-out;
+}
+
+button:not(:hover) {
+  background-color: white;
+  color: blue;
+  border-radius: 10px;
+  transition: all 1.6s ease-in-out;
+}
