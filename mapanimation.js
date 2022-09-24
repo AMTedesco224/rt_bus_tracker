@@ -15,11 +15,11 @@ let marker = null;
 async function run() {
   const locations = await getBusLocations();
   console.log(new Date());
-  // Change the number value of data[x] in the "lon" and "lat" 
-  // variables below to see different bus routes
-  const lon = parseFloat(JSON.stringify(data[5].attributes.longitude));
-  const lat = parseFloat(JSON.stringify(data[5].attributes.latitude));
+  // change the lon & lat variables "data[x]" value(1-10) to track a different bus
+  const lon = parseFloat(JSON.stringify(data[0].attributes.longitude));
+  const lat = parseFloat(JSON.stringify(data[0].attributes.latitude));
   busLocation.push([lon, lat]);
+  console.log(lon, lat);
   createMarker();
   move();
 }
@@ -74,7 +74,6 @@ async function move() {
     if (counter >= busLocation.length) return;
     marker.setLngLat(busLocation[counter]);
     counter++;
-    console.log(counter);
     run();
   }, timer)
 }
