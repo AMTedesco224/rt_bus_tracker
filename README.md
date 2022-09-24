@@ -4,3 +4,7 @@ Tracks a Boston bus route in real time with a map marker using mapbox. I used th
 ## When open in the browser press the "Track Bus Location" button to add a marker to the map that updates the bus location every 10 seconds.
 
 <img src="bustracker_ex.png" width="300px">
+
+This application could be updated to view multiple bus routes at once or toggle through different bus routes in Boston for future development.
+
+Copyright 2022
