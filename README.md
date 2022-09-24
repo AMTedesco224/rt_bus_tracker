@@ -7,4 +7,6 @@ Tracks a Boston bus route in real time with a map marker using mapbox. I used th
 
 This application could be updated to view multiple bus routes at once or toggle through different bus routes in Boston for future development.
 
-Copyright 2022
+!!Licensing Information!!
+
+This code is licensed by MIT under the and all subsequent copies of this repository should include this information.
